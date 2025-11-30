@@ -88,18 +88,18 @@ An efficient lossless file compression and decompression tool based on Huffman c
 
 ## 项目结构
 huffman-compressor/
-├── main.cpp                # 主程序（菜单交互、逻辑调度）
-├── compress_extract.cpp    # 压缩/解压核心函数实现
-├── file.cpp                # 文件读写工具函数
-├── huffman_tree.cpp        # 哈夫曼树构建与编码生成
-├── frequency.cpp           # 字符频率统计函数
-├── hushcompare.cpp         # 哈希值文件对比函数
-├── compress_extract.hpp    # 压缩/解压核心函数声明
-├── file.hpp                # 文件读写工具函数声明
-├── huffman_tree.hpp        # 哈夫曼树相关类与函数声明
-├── frequency.hpp           # 字符频率统计函数声明
-├── hushcompare.hpp         # 哈希校验函数声明
-└── README.md               # 项目说明文档
+- **`main.cpp`**：主程序（菜单交互、逻辑调度）  
+- **`compress_extract.cpp`**：压缩/解压核心函数实现  
+- **`file.cpp`**：文件读写工具函数  
+- **`huffman_tree.cpp`**：哈夫曼树构建与编码生成  
+- **`frequency.cpp`**：字符频率统计函数  
+- **`hushcompare.cpp`**：哈希值文件对比函数  
+- **`compress_extract.hpp`**：压缩/解压核心函数声明  
+- **`file.hpp`**：文件读写工具函数声明  
+- **`huffman_tree.hpp`**：哈夫曼树相关类与函数声明  
+- **`frequency.hpp`**：字符频率统计函数声明  
+- **`hushcompare.hpp`**：哈希校验函数声明  
+- **`README.md`**：项目说明文档
 
 ---
 
